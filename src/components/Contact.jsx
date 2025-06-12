@@ -174,7 +174,7 @@ export default function ContactSection() {
 
               <div className="space-y-2">
                 <ReCAPTCHA
-                  sitekey="6LddnVwrAAAAADb5WpmwMog8oRsKYQRlFA5fG_yk"
+                  sitekey="6LcfBl4rAAAAAJEcC84xxxQnN0u5U3iufLYIQHPn"
                   onChange={(value) => setCaptcha(value)}
                 />
                 {errors.captcha && <p className="text-red-500 text-sm">{errors.captcha}</p>}
